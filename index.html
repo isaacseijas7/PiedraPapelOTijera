@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Libreria Js</title>
+	<link rel="stylesheet" type="text/css" href="css/ppt.css">
+</head>
+<body>
+
+	<div class="conten">
+
+		<div class="title">
+			<h1>Piedra Papel o Tijera</h1>
+		</div>
+
+		<div class="campo_op">
+			<div class="jugador">
+				<h2>Jugador <span id="pts_jugador">0</span></h2>
+				<h3 id="op_jugador"><img src="img/bg.png" alt=""></h3>
+				<p></p>
+			</div>
+			<div class="maquina">
+				<h2>Maquina <span id="pts_maqina">0</span></h2>
+				<h3 id="op_maquina"><img src="img/bg.png" alt=""></h3>
+				<p></p>
+			</div>
+			<div id="resultado_ganador"><p>¿ESCOJA UNA DE LAS SIGUIENTES OPCIONES?</p></div>
+			<div class="conten-radios" id="conten_juego">
+				<label form="Piedra"><input type="radio" value="1" class="rdo" name="ppt_rdo"> Piedra</label>
+
+				<label form="Papel"><input type="radio" value="2" class="rdo" name="ppt_rdo"> Papel</label>
+
+				<label form="Tijera"><input type="radio" value="3" class="rdo" name="ppt_rdo"> Tijera</label>
+			</div>
+		</div>
+
+	</div>
+	<script src="js/ppt.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

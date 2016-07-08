@@ -1,0 +1,119 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body, html{
+	width: 100%;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+h2{
+	line-height: 30px;
+	margin-top: 5px;
+}
+
+h3 > p{
+	background-color: #aab5d5;
+	padding: 5px;
+	width: 120px;
+	text-align: center;
+	margin: auto; 
+}
+
+.conten{
+	width: 80%;
+	margin: auto;
+	padding: 15px;
+}
+
+.conten-radios{
+	padding: 10px;
+	text-align: center;
+}
+
+.campo_op{
+	width: 100%;
+	background-color: #495a88;
+	text-align: center;
+	color: #fff;
+}
+
+.campo_op .jugador{
+	width: 49%;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	max-height: 230px;
+	min-height: 230px; 
+}
+
+.campo_op .maquina{
+	width: 49%;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	max-height: 230px;
+	min-height: 230px;
+}
+
+.title{
+	background-color: #333;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+}
+
+.title h1{
+	padding: 15px;
+}
+
+label{
+	cursor: pointer;
+	font-size: 30px;
+	color: #a9a9a9;
+	margin: 0 10px; 
+	transition: all .5s;
+	font-weight: bold;
+}
+
+label:hover{
+	color: #fff;
+}
+
+input[type=radio]{
+	cursor: pointer;
+	width: 0px;
+	height: 0px;
+}
+
+#resultado_ganador{
+	padding: 10px;
+	font-weight: bold;
+}
+
+h2 span{
+	background-color: #aab5d5;
+	padding: 0 10px; 
+}
+
+.resultado_ganador{
+	font-weight: bold;
+	font-size: 45px;
+}
+
+a{
+	color: #495a88;
+	font-weight: bold;
+	background-color: #aab5d5;
+	padding: 10px;
+	width: 100%;
+	transition: all .2s;
+}
+
+a:hover{
+	color: #fff;
+	background-color: #495a88;
+	margin: 10px; 
+}
